@@ -1,52 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>table</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表格标签</title>
 </head>
 
 <body>
-    <table border="1" width="100%">
-        <thead>
-            <tr>
-                <th>标题</th>
-                <th>标题</th>
-                <th>标题</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>单元格1</td>
-                <td>单元格2</td>
-                <td>单元格3</td>
-                <td>单元格4</td>
-            </tr>
-            <tr>
-                <td>单元格1</td>
-                <td>单元格2</td>
-                <td>单元格3</td>
-                <td>单元格4</td>
-            </tr>
-            <tr>
-                <td>单元格1</td>
-                <td>单元格2</td>
-                <td>单元格3</td>
-                <td>单元格4</td>
-            </tr>
-            <tr>
-                <td>单元格1</td>
-                <td>单元格2</td>
-                <td>单元格3</td>
-                <td>单元格4</td>
-            </tr>
-        </tbody>
-        <tfoot>
-        	<tr>
-        		<td colspan="4" align="center">这是底部</td>
-        	</tr>
-        </tfoot>
-    </table>
+<table border="0" cellpadding="2" cellspacing="1" bgcolor="#333">
+		<thead>
+				<tr bgcolor="#fff">
+						<th>表头</th>
+						<th>表头</th>
+						<th>表头</th>
+				</tr>
+		</thead>
+		<tbody>
+				<tr bgcolor="#fff">
+						<td colspan="2">单元格内容单元格内容</td>
+						<td rowspan="3"><img src="images/logo.png" alt="" /></td>
+				</tr>
+				<tr bgcolor="#fff">
+						<td rowspan="2">单元格内容单元格内容</td>
+						<td>单元格内容</td>
+				</tr>
+				<tr bgcolor="#fff">
+						<td>单元格内容</td>
+				</tr>
+		</tbody>
+		
+</table>
 </body>
-
 </html>

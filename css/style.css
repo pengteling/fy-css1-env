@@ -1,6 +1,136 @@
-p {
-    width: 300px;
-    height: 200px;
-    background: #f00;
-    text-decoration: underline;    
+/* .container .txt{
+	color:green;
 }
+.txt{
+	color:yellow;
+}
+.container .bottom .txt{
+	color:red;
+} */
+
+/* .txt{
+	color:green;
+}
+#content{
+	color:red;
+} */
+
+
+/* div.container{
+	
+}
+ul.container{
+	
+} */
+/* class类名 含有 important */
+/* p.important{  
+ 	color:red;
+ }  
+ 
+ p[data-type~=important]{
+ 	color:green;
+ }  */ 
+
+/* [~=]  和 . 的区别 */
+/* p[data-type~=important]{
+	color:green
+} */
+
+/*  p[class^=important]{
+	color:green;
+}
+p[class$=important]{
+	color:green;
+} */
+ 
+/*  p[class*=important]{
+	color:green
+}  */
+
+/* important-us 会适配 但直接加空格 不会适配 */
+/*  p[class|=important]{
+	color:green;
+}  */
+
+/* 子元素选择器  写法 >两侧的空格可写可不写 */
+/* .container > .bottom{
+	color:red;
+}  */
+
+
+/*  .important +.four{
+	color:red;
+} */
+/* .txt{
+	background: #ddd;
+}  */
+
+/* 英文会显示成大写字母 的小型字体 */
+/* .txt{
+	font-variant: small-caps;
+} */
+
+/* 没有安装的字体将不会显示 */
+/* .txt{
+	font-family: "方正兰亭" 
+}
+ */
+
+
+/*  a{
+	color: green;
+	font-weight: bold;
+}
+
+a:link {color:#FF0000;}		未被访问的链接
+a:visited {color:#333;}	已被访问的链接
+a:hover {color:#FF00FF;}	鼠标指针移动到链接上
+a:active {color:#0000FF;}	正在被点击的链接
+*/
+/* .bottom::first-letter{
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.bottom{
+	position: relative;
+}
+.bottom::before{
+	content: '这是伪元素before';
+	position: absolute;
+	width:100px;
+	height: 20px;
+	left: 0;
+	top: -40px;
+	color: red;
+}
+
+.bottom::after{
+	content: '这是伪元素after';
+	position: absolute;
+	width:100px;
+	height: 20px;
+	left: 0;
+	top: 60px;
+	color: red;
+} */
+
+/* .container{	
+	height: 700px;
+	background-color: #0f0;
+	background-image: url("../images/index-banner.jpg");
+	background-repeat: no-repeat;
+
+	 background: url("../images/index-banner.jpg") center center no-repeat  ; 	
+
+	font-style: oblique ;
+
+}
+.bottom{
+	font-variant: small-caps;
+	font-weight: 700  ;
+	font-size: 18px;
+	font-family: "宋体";
+	font:bold 18px/20px "微软雅黑";
+
+} */
