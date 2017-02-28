@@ -35,10 +35,14 @@ a{
 	line-height: 90px;
 }
 .header .logo a{
-	color:#28274f;
+	color:#28274f;	
+	
 }
 
 .header .nav{
+	float: left;
+}
+.header .menu{
 	float: left;
 }
 .header .tel{
