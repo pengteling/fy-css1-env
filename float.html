@@ -4,6 +4,18 @@
 	<meta charset="UTF-8">
 	<title>Float</title>
 	<style>
+
+	/* new clearfix */
+	.clearfix:before,.clearfix:after{ 
+	    content:""; 
+	    display:table; 
+	} 
+	.clearfix:after{clear:both;} 
+	.clearfix{ 
+	    *zoom:1;/*IE/7/6*/
+	}
+	
+
 	.container{
 		width: 100%;
 		/* 清除浮动 */
@@ -43,11 +55,13 @@
 	/* .clear{
 		clear: both;
 	} */
+
+
 	
 	</style>
 </head>
 <body>
-	<div class="container">
+	<div class="container clearfix">
 		<div class="box box1">1</div>
 		<div class="box box2">2</div>
 		<div class="box box3">3</div>
