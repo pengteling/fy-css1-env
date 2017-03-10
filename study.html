@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
 	<title>inlinebox</title>
 	<style>
-		
-		span{
-			display: inline-block;
-			width: 150px;
-			height: 150px;
-			border: #333 1px solid;
-			line-height: 0
-		}
-		
-	</style>
+
+div{ margin:0; padding:0;}
+
+.box{  background:#00CC66; overflow: scroll;resize: both; width: 800px; height: 800px; }
+
+.box>div{ margin:40%; background: #FFCC99}
+
+</style>
+
 </head>
+
+
+
 <body>
-<div>
-	<span>xabc</span>
-	<span></span>
+
+<div class="box">
+
+   <div></div>
+
 </div>
+
 
 
 	
